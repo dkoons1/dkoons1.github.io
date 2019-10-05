@@ -102,8 +102,10 @@ li:last-child {
 }
 
 .portfolio{
-    padding-right: 30px;
+    padding-right: 35px;
     padding-bottom: 30px;
+    width: 300px;
+    height: 250px;
 }
 
 .submit-button{
@@ -130,7 +132,7 @@ li:last-child {
     position: absolute;
     text-align: center;
     margin-top: -115px;
-    width: 320px;
+    width: 270px;
 }
 
 a{
