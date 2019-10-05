@@ -1,0 +1,167 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.about{
+    padding-bottom: 30px;
+    border-bottom: 3px solid #cccccc;
+    color: #4aaaa5;
+    width: 100%;
+    margin-top: 0;
+}
+
+textarea{
+    width: 99%;
+    border: #cccccc solid 1px;
+}
+
+.subject {
+    font-size: 20px;
+    color: #777777;
+}
+
+.paragraph{
+    font-size: 20px;
+    line-height: 35px;
+    color: #777777;
+}
+input{
+    width: 98%;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #777777;
+}
+
+.content {
+    margin-top: 150px;
+    align-content: center;
+    justify-content: center;
+    top: 100px;
+    background: #ffffff;
+    /* position: relative; */
+    padding: 30px;
+}
+
+.header{    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc;
+}
+
+.navbar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    display: inline-block;
+    margin: 0 10px;
+    padding-right: 20px;
+    border-right: 1px solid grey;
+}
+
+li:last-child {
+    border-right: none;
+    padding-right: 0px;
+}
+
+.name{
+    width: auto;
+    padding: 15px;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.portfolio{
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.submit-button{
+    padding: 15px 40px;
+    margin-top: 20px;
+    bottom: 0;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.img-container{
+    /* position: relative; */
+    display: inline-block;
+    padding-right: 80px;
+}
+
+.image-banner{
+    padding: 15px;
+    background: #4aaaa5;
+    position: absolute;
+    text-align: center;
+    margin-top: -90px;
+    width: 170px;
+}
+
+a{
+    color: #777777;
+    text-decoration: none;
+}
+
+.profile{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+.links{
+    font-size: 20px;
+    float: right;
+    padding-right: 0px;
+    padding: 15px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer{
+    position: absolute;
+    left: 0%;
+    margin-top: 75px; 
+    display: inline-block;
+    font-size: 10px;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-top: 12px solid #4aaaa5;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+}
