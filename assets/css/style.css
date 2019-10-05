@@ -47,6 +47,7 @@ input{
 
 .content {
     margin-top: 150px;
+    margin-bottom: 100px;
     align-content: center;
     justify-content: center;
     top: 100px;
@@ -117,16 +118,19 @@ li:last-child {
 .img-container{
     /* position: relative; */
     display: inline-block;
-    padding-right: 80px;
+    padding-right: 10px;
 }
 
 .image-banner{
     padding: 15px;
     background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
     position: absolute;
     text-align: center;
-    margin-top: -90px;
-    width: 170px;
+    margin-top: -115px;
+    width: 320px;
 }
 
 a{
@@ -154,7 +158,8 @@ a{
 .footer{
     position: absolute;
     left: 0%;
-    margin-top: 75px; 
+    bottom: auto;
+    margin-top: 25px; 
     display: inline-block;
     font-size: 10px;
     padding-top: 55px;
