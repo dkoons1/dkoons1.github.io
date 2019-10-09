@@ -158,9 +158,10 @@ a{
 }
 
 .footer{
-    position: fixed;
+    position: absolute;
+    display: inline-block;
     left: 0%;
-    bottom: 0;
+    /* bottom: 0%; */
     margin-top: 105px; 
     display: inline-block;
     font-size: 10px;
