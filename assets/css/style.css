@@ -50,6 +50,7 @@ input{
     margin-bottom: 100px;
     align-content: center;
     justify-content: center;
+    display: inline-block;
     top: 100px;
     background: #ffffff;
     /* position: relative; */
@@ -158,10 +159,9 @@ a{
 }
 
 .footer{
-    position: absolute;
-    display: inline-block;
+    position: fixed;
     left: 0%;
-    /* bottom: 0%; */
+    bottom: 0%;
     margin-top: 105px; 
     display: inline-block;
     font-size: 10px;
